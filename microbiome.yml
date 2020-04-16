@@ -56,7 +56,6 @@ dependencies:
   - libopenblas=0.3.6=h6e990d7_4
   - libpng=1.6.37=hed695b0_0
   - libpq=10.6=h13b8bad_1000
-  - libspatialindex=1.9.0=he1b5a44_1
   - libspatialite=4.3.0a=hb5ec416_1026
   - libssh2=1.8.0=h1ad7b7a_1003
   - libstdcxx-ng=8.2.0=hdf63c60_1

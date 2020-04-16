@@ -4,7 +4,7 @@ from django.views.generic import TemplateView
 from . import views
 
 urlpatterns = [
-    path('', views.front_main, name="index"),
+    # path('', views.front_main, name="index"),
     # Code controlled pages
     path('search/', views.search_form, name="search"),
     path('results/', views.results, name="results"),

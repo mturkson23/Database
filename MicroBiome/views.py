@@ -106,12 +106,12 @@ def upload_file(request):
 
 
 
-def front_main(request):
-    """Show front page of the website.
-    """
-    print(Person.nodes.all())
-    #  return render(request, "MicroBiome/search.html", {})
-    return render(request, "MicroBiome/results.html", {'movies': Movie.nodes.all()})
+# def front_main(request):
+#     """Show front page of the website.
+#     """
+#     print(Person.nodes.all())
+#     #  return render(request, "MicroBiome/search.html", {})
+#     return render(request, "MicroBiome/results.html", {'movies': Movie.nodes.all()})
 
 
 def test_update():
