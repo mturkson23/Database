@@ -4,9 +4,11 @@ dist: trusty
 services:
 - docker
 
-#install:
+install:
 #- docker-compose pull
 #- docker-compose build
+- nginx
+- gunicorn
 
 script:
 - docker build -t database .
