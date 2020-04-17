@@ -15,7 +15,7 @@ script:
 
 deploy:
   - provider: script
-    script: bash start-server.sh 
+    script: bash deploy.sh 
     on:
       branch: ebo
     skip_cleanup: true
