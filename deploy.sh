@@ -4,7 +4,7 @@
 set -e;
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-cd "$DIR/.."
+#cd "$DIR/.."
 
 image_tag="latest";
 image_full_name="fykto/microbiome_portal:$image_tag";
